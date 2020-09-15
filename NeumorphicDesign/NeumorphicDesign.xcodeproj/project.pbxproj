@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		80454BDE2510822D003359A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454BDD2510822D003359A7 /* AppDelegate.swift */; };
 		80454BE02510822D003359A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454BDF2510822D003359A7 /* SceneDelegate.swift */; };
-		80454BE22510822D003359A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454BE12510822D003359A7 /* ContentView.swift */; };
 		80454BE425108235003359A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80454BE325108235003359A7 /* Assets.xcassets */; };
 		80454BE725108235003359A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80454BE625108235003359A7 /* Preview Assets.xcassets */; };
 		80454BEA25108235003359A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80454BE825108235003359A7 /* LaunchScreen.storyboard */; };
 		80454BF3251083C3003359A7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454BF2251083C3003359A7 /* ButtonView.swift */; };
+		80454BF5251093CA003359A7 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80454BF4251093CA003359A7 /* MusicPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80454BDA2510822D003359A7 /* NeumorphicDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphicDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80454BDD2510822D003359A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80454BDF2510822D003359A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80454BE12510822D003359A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80454BE325108235003359A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80454BE625108235003359A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80454BE925108235003359A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80454BEB25108235003359A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80454BF2251083C3003359A7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		80454BF4251093CA003359A7 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,6 @@
 				80454BF1251083B3003359A7 /* View */,
 				80454BDD2510822D003359A7 /* AppDelegate.swift */,
 				80454BDF2510822D003359A7 /* SceneDelegate.swift */,
-				80454BE12510822D003359A7 /* ContentView.swift */,
 				80454BE325108235003359A7 /* Assets.xcassets */,
 				80454BE825108235003359A7 /* LaunchScreen.storyboard */,
 				80454BEB25108235003359A7 /* Info.plist */,
@@ -82,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				80454BF2251083C3003359A7 /* ButtonView.swift */,
+				80454BF4251093CA003359A7 /* MusicPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80454BF5251093CA003359A7 /* MusicPlayerView.swift in Sources */,
 				80454BDE2510822D003359A7 /* AppDelegate.swift in Sources */,
 				80454BE02510822D003359A7 /* SceneDelegate.swift in Sources */,
 				80454BF3251083C3003359A7 /* ButtonView.swift in Sources */,
-				80454BE22510822D003359A7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
